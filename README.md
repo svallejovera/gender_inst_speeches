@@ -20,8 +20,6 @@ This README file provides an overview of the replications materials for the arti
       - **random**: the attention that the General Public paid to the given issue in that particular day
       - **random_us**: the attention that the General Public (located in the United States) paid to the given issue in that particular day            
       - **media**: the attention that naional Media organizations paid to the given issue in that particular day
-      
- - `data/pa2our_topics_crosswalk_merged_subissues.csv`: dataset mapping our political topics to the major topic codes of the [_Comparative Policy Agendas Project_](https://www.comparativeagendas.net/pages/master-codebook), as well as providing human readable labels for all these political topics.
 
 ## Analysis
   - [figure 2.R](https://github.com/svallejovera/gender_inst_speeches/blob/main/code/figure%202.R) to replicate Figure 2 of the paper, where we show the proportion of speeches delivered by women by topic.
