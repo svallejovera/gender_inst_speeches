@@ -5,6 +5,7 @@ rm(list=ls(all=TRUE))
 library(tidyverse)
 library(tidylog)
 library(MASS)
+library(sjPlot)
 
 # Load data: ----
 # setwd("~/Replications Files/Data")
