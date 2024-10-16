@@ -1,6 +1,6 @@
 # Replication materials
 
-Replication materials for "Gender, Institutions, and Legislative Speech" (2024), by Eduardo Alemán, Tiffany Barnes, Juan Pablo Micozzi, and Sebastián Vallejo Vera, at the __Comparative Politics__.
+Replication materials for "Gender, Institutions, and Legislative Speech" (2024), by Eduardo Alemán, Tiffany Barnes, Juan Pablo Micozzi, and Sebastián Vallejo Vera, at the __Comparative Politics__ journal.
 
 > __Abstract:__
 > Speechmaking is a vital resource for legislators and holds particular importance for women lawmakers, who frequently constitute a numerical minority and face constraints on their political influence. We argue that formal and informal institutions, district characteristics, and issue priorities shape women’s speech participation. Analyzing twenty-eight years of speeches from Chile’s Chamber of Deputies, we first show that women’s speeches constitute a small share of all speeches, directly corresponding to their numeric representation. Proportionally, however, women are over/under-represented in speechmaking across different policy areas. After controlling for various factors correlating with gender, including committee assignments, tenure, and district characteristics, women’s relative participation is similar to men’s in most topics but exceeds men’s in areas that disproportionately affect women’s lives, reflecting their commitment to substantive representation. 
