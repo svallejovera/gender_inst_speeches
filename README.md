@@ -24,19 +24,19 @@ This README file provides an overview of the replications materials for the arti
  - `data/pa2our_topics_crosswalk_merged_subissues.csv`: dataset mapping our political topics to the major topic codes of the [_Comparative Policy Agendas Project_](https://www.comparativeagendas.net/pages/master-codebook), as well as providing human readable labels for all these political topics.
 
 ## Analysis
-  - [figure_2.R](https://github.com/SMAPPNYU/lead_follow_apsr/blob/master/03-analysis/01-table3.R) to replicate Figure 2 of the paper, where we show the proportion of speeches delivered by women by topic.
+  - [figure 2.R](https://github.com/svallejovera/gender_inst_speeches/blob/main/code/figure%202.R) to replicate Figure 2 of the paper, where we show the proportion of speeches delivered by women by topic.
 
 <img src = "https://github.com/SMAPPNYU/lead_follow_apsr/blob/master/images/table3.png">
 
-  - [figure_3.R](https://github.com/SMAPPNYU/lead_follow_apsr/blob/master/03-analysis/02-figure1.R) to replicate Figure 3 of the paper, where we show gender difference in speechmaking by topic.
+  - [figure 3.R](https://github.com/svallejovera/gender_inst_speeches/blob/main/code/figure%203.R) to replicate Figure 3 of the paper, where we show gender difference in speechmaking by topic.
 
 <img src = "https://github.com/SMAPPNYU/lead_follow_apsr/blob/master/images/figure1.png">
 
-  - [figure_4.R](https://github.com/SMAPPNYU/lead_follow_apsr/blob/master/03-analysis/03-figure2.R) to replicate Figures 4a and 4b of the paper, where we show gender differences in Law and Crime speeches when we include and exclude women issues.
+  - [figure 4.R](https://github.com/svallejovera/gender_inst_speeches/blob/main/code/figure%204.R) to replicate Figures 4a and 4b of the paper, where we show gender differences in Law and Crime speeches when we include and exclude women issues.
 
 <img src = "https://github.com/SMAPPNYU/lead_follow_apsr/blob/master/images/figure2.png">
 
-  - [figure_5.R](https://github.com/SMAPPNYU/lead_follow_apsr/blob/master/03-analysis/04-figure3.R) to replicate Figure 5 of the paper, where we plot the relationship between being a women a delivering non women-related speeches and women-related speeches.
+  - [figure 5.R](https://github.com/svallejovera/gender_inst_speeches/blob/main/code/figure%205.R) to replicate Figure 5 of the paper, where we plot the relationship between being a women a delivering non women-related speeches and women-related speeches.
 
 <img src = "https://github.com/SMAPPNYU/lead_follow_apsr/blob/master/images/figure3.png">
 
