@@ -50,7 +50,7 @@ This README file provides an overview of the replications materials for the arti
 
 <img src = "https://github.com/svallejovera/gender_inst_speeches/blob/main/figures/figure%205.jpg">
 
-  - [table 1b appendix.R](https://github.com/SMAPPNYU/lead_follow_apsr/blob/master/03-analysis/07-table4.R) to replicate Table 1.B of the Appendix, where we estimate the models for the determinants of speech topic. We use the odds ratio for the variable *Woman* in Figure 3.
+  - [table 1b appendix.R](https://github.com/svallejovera/gender_inst_speeches/blob/main/code/table%201b%20appendix.R) to replicate Table 1.B of the Appendix, where we estimate negative binomial models for the determinants of speech topic. We use the odds ratio of the variable *female* to plot Figure 3.
 
 ## Supervised Machine Learning Model (XLM-RoBERTa) for Topics:
 
