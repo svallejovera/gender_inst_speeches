@@ -1,6 +1,3 @@
-# gender_inst_speeches
-Replication material for Aleman et al. (2024) - Gender, Institutions, and Legislative Speech
-
 # Replication materials
 
 Replication materials for "Gender, Institutions, and Legislative Speech" (2024), by Eduardo Alemán, Tiffany Barnes, Juan Pablo Micozzi, and Sebastián Vallejo Vera, at the __Comparative Politics__.
