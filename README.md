@@ -28,16 +28,16 @@ This README file provides an overview of the replications materials for the arti
 
   - [figure 3.R](https://github.com/svallejovera/gender_inst_speeches/blob/main/code/figure%203.R) to replicate Figure 3 of the paper, where we show gender difference in speechmaking by topic.
 
-<img src = "https://github.com/svallejovera/gender_inst_speeches/blob/main/figures/figure%203.jpeg">
+<img src = "https://github.com/svallejovera/gender_inst_speeches/blob/main/figures/figure%203.jpg">
 
   - [figure 4.R](https://github.com/svallejovera/gender_inst_speeches/blob/main/code/figure%204.R) to replicate Figures 4a and 4b of the paper, where we show gender differences in Law and Crime speeches when we include and exclude women issues.
 
-<img src = "https://github.com/svallejovera/gender_inst_speeches/blob/main/figures/figure%204a.jpeg">
-<img src = "https://github.com/svallejovera/gender_inst_speeches/blob/main/figures/figure%204b.jpeg">
+<img src = "https://github.com/svallejovera/gender_inst_speeches/blob/main/figures/figure%204a.jpg">
+<img src = "https://github.com/svallejovera/gender_inst_speeches/blob/main/figures/figure%204b.jpg">
 
   - [figure 5.R](https://github.com/svallejovera/gender_inst_speeches/blob/main/code/figure%205.R) to replicate Figure 5 of the paper, where we plot the relationship between being a women a delivering non women-related speeches and women-related speeches.
 
-<img src = "https://github.com/svallejovera/gender_inst_speeches/blob/main/figures/figure%205.jpeg">
+<img src = "https://github.com/svallejovera/gender_inst_speeches/blob/main/figures/figure%205.jpg">
 
   - [07-table4.R](https://github.com/SMAPPNYU/lead_follow_apsr/blob/master/03-analysis/07-table4.R) to replicate Table 4 of the paper, where we show the correlation between the issue attention distribution of the media, and the political and public groups under study.
 
