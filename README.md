@@ -10,16 +10,27 @@ A link to the latest pre-print is available [here](final_manuscript.pdf). The pu
 This README file provides an overview of the replications materials for the article. The [Data](https://github.com/svallejovera/gender_inst_speeches#data) section describes the main dataset required to reproduce the tables and figures in the paper. The [Analysis](https://github.com/svallejovera/gender_inst_speeches#code) section summarizes the purpose of each R or python script. 
 
 ## Data
-  - `data/data_rep.Rdata`: dataset with information on the number of speeches delivered in every topic by a legisator, across differnt legislative sessions. The unit of analysis is the session-legislator-topic. We include all control variables. It contains the following variables
-      - **topic**: topic codes, range from 1 to 104, where [101,102,103,104] are topics that we merged a ad-hoc. Not all topics are of a political nature. These are the political ones used in our analysis: [3, 7, 9, 12, 14, 15, 16, 18, 20, 23, 28, 32, 33, 36, 37, 39, 41, 43, 46, 47, 48, 49, 50, 51, 53, 58, 62, 63, 64, 66, 67, 70, 75, 81, 83, 85, 88, 89, 93, 96, 97, 99, 100, 101, 102, 103, 104]
-      - **dem**: the attention that Democrats in Congress paid to the given issue in that particular day
-      - **rep**: the attention that Republicans in Congress paid to the given issue in that particular day
-      - **public**: the attention that the Attentive Public paid to the given issue in that particular day      
-      - **pubdem**: the attention that Democratic Supporters paid to the given issue in that particular day
-      - **pubrep**: the attention that Republican Supporters paid to the given issue in that particular day      
-      - **random**: the attention that the General Public paid to the given issue in that particular day
-      - **random_us**: the attention that the General Public (located in the United States) paid to the given issue in that particular day            
-      - **media**: the attention that naional Media organizations paid to the given issue in that particular day
+  - `data/data_rep.Rdata`: dataset with information on the number of speeches delivered in every topic by a legisator, across differnt legislative sessions. The unit of analysis is the session-legislator-topic. We include all control variables. It contains the following variables:
+      - **perodo**: legislative session *k*
+      - **candidatoa**: candidate *i* name 
+      - **female**: indicator variable that takes value of 1 if legislator is a woman and 0 otherwise
+      - **topics_sp**: topic *j*     
+      - **total_sp_leg_type_topic**: total number of speeches delivered by candidate *i* on topic *j* during session *k*
+      - **total_sp_leg_type_topic2**: total number of speeches **not mentioning women** delivered by candidate *i* on topic *j* during session *k*
+      - **total_sp_leg_period**: total number of speeches delivered by candidate *i* during session *k*
+      - **total_mentions_muj**: total number of speeches delivered mentioning women by candidate *i* during session *k*  
+      - **mesa**: indicator variable that takes value of 1 if the legislator is part of the executive board of the Chamber of Deputies (*Mesa*) and 0 otherwise
+      - **membc1**:**membc31**: indicator variable that takes value of 1 if the legislator is a member of committee *p* and 0 otherwise (see `data/committees.xlsx` for the names of the committees matching the numbers)
+      - **chairc1**:**chairc31**: indicator variable that takes value of 1 if the legislator is president of committee *p* and 0 otherwise (see `data/committees.xlsx` for the names of the committees matching the numbers)
+      - **alianza**: indicator variable that takes value of 1 if the legislator is part of the *Alianza* coalition and 0 otherwise
+      - **other**: indicator variable that takes value of 1 if the legislator is part of the *Other* coalition and 0 otherwise
+      - **tenure**: the number of terms the legislator has served in the chamber
+      - **lndist**: logged distance between main town of the legislator’s district and La Moneda, the presiden- tial building located in Santiago, computed using Google Maps
+      - **porcRural**: share of rural inhabitants in the district, obtained from Chilean census information
+      - **margenlist**: difference between the votes received by the legislator and her list’s partner
+  - `data/keyword mujer.xlsx`: dictionary with words associated with women-related topics.
+  - `data/committees.xlsx`: names of the committees matching the numbers (see variables from `data/data_rep.Rdata`.
+  - `data/topics_committees.xlsx`: names of topics that are matched to committees.
 
 ## Analysis
   - [figure 2.R](https://github.com/svallejovera/gender_inst_speeches/blob/main/code/figure%202.R) to replicate Figure 2 of the paper, where we show the proportion of speeches delivered by women by topic.
@@ -39,13 +50,7 @@ This README file provides an overview of the replications materials for the arti
 
 <img src = "https://github.com/svallejovera/gender_inst_speeches/blob/main/figures/figure%205.jpg">
 
-  - [07-table4.R](https://github.com/SMAPPNYU/lead_follow_apsr/blob/master/03-analysis/07-table4.R) to replicate Table 4 of the paper, where we show the correlation between the issue attention distribution of the media, and the political and public groups under study.
-
-<img src = "https://github.com/SMAPPNYU/lead_follow_apsr/blob/master/images/table4.png">
-
-  - [08-figure6.R](https://github.com/SMAPPNYU/lead_follow_apsr/blob/master/03-analysis/08-figure6.R) to replicate Figure 6 of the paper, where we show the ability of the the different groups under study to lead the agenda of the media, and _viceversa_.
-
-<img src = "https://github.com/SMAPPNYU/lead_follow_apsr/blob/master/images/figure6.png">
+  - [table 1b appendix.R](https://github.com/SMAPPNYU/lead_follow_apsr/blob/master/03-analysis/07-table4.R) to replicate Table 1.B of the Appendix, where we estimate the models for the determinants of speech topic. We use the odds ratio for the variable *Woman* in Figure 3.
 
 ## Supervised Machine Learning Model (XLM-RoBERTa) for Topics:
 
