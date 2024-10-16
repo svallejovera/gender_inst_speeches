@@ -7,7 +7,7 @@ Replication materials for "Gender, Institutions, and Legislative Speech" (2024),
 
 A link to the latest pre-print is available [here](final_manuscript.pdf). The published version is [here](https://www.ingentaconnect.com/content/cuny/cp/pre-prints/content-jcpo23248).
 
-This README file provides an overview of the replications materials for the article. The [Data](https://github.com/svallejovera/gender_inst_speeches#data) section describes the main dataset required to reproduce the tables and figures in the paper. The [Analysis](https://github.com/svallejovera/gender_inst_speeches#code) section summarizes the purpose of each R or python script. 
+This README file provides an overview of the replications materials for the article. The [Data](https://github.com/svallejovera/gender_inst_speeches#data) section describes the main dataset required to reproduce the tables and figures in the paper. The [Analysis](https://github.com/svallejovera/gender_inst_speeches#Analysis) section summarizes the purpose of each R or python script. 
 
 ## Data
   - `data/data_rep.Rdata`: dataset with information on the number of speeches delivered in every topic by a legisator, across differnt legislative sessions. The unit of analysis is the session-legislator-topic. We include all control variables. It contains the following variables:
